@@ -192,17 +192,17 @@ After detecting a heterozygous position, the tool analyzes downstream positions:
 The tool generates a detailed report:
 
 ```
-文件: sample.ab1
+File: sample.ab1
 ========================================
-基因型: Compound Heterozygous
-突变位点: 参考 250 / 测序 186
-参考碱基: C
-峰图分析: 主峰 C (高度: 2450), 次峰 A (高度: 1580), 比例 0.645
-Frameshift: 是 (后续20个位置平均比例: 0.520)
+Genotype: Compound Heterozygous
+Mutation site: Reference 250 / Sequencing 186
+Reference base: C
+Peak analysis: Primary peak C (height: 2450), Secondary peak A (height: 1580), Ratio 0.645
+Frameshift: Yes (average ratio for next 20 positions: 0.520)
 
---- 推断结果 ---
-等位基因 1: 在参考248位插入1个C (C->CC)
-等位基因 2: 参考248位C突变为A (C->A)
+--- Inferred Results ---
+Allele 1: 1bp C insertion at reference position 248 (C->CC)
+Allele 2: C to A mutation at reference position 248 (C->A)
 ```
 
 ### 5.2 CSV Summary
